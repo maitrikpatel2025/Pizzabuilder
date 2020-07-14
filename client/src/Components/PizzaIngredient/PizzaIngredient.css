@@ -1,0 +1,205 @@
+  .crust {
+    position: absolute;
+    margin: auto;
+    top: 80px;
+    right: 0;
+    left: 0;
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  .sauce {
+    position: absolute;
+    margin: auto;
+    top: 90px;
+    right: 0;
+    left: 0;
+    height: 280px;
+    width: 280px;
+    background-color: #b21807;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  .cheese {
+    position: absolute;
+    margin: auto;
+    top: 105px;
+    right: 0;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: gold;
+    z-index: 10;
+  }
+  .white-cheese{
+    position: absolute;
+    margin: auto;
+    top: 105px;
+    right: 0;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background:white;
+    z-index: 10;
+  }
+  .mozzarella-cheese{
+    position: absolute;
+    margin: auto;
+    top: 105px;
+    right: 0;
+    left: 0;
+    height: 250px;
+    width: 250px;;
+    border-radius: 50%;
+    background:#FFD72C;
+    z-index: 10;
+  }
+
+  .pepperoni{
+    z-index: 10;
+    position: absolute;
+    margin: auto;
+    top: 210px;
+    left: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 
+      -80px -60px 0 0 #C4272C,
+      0 -75px 0 0 #C4272C,
+      -40px -30px 0 0 #C4272C,
+      -80px -60px 0 0 #C4272C,
+      80px -40px 0 0 #C4272C,
+      -60px 30px 0 0 #C4272C,
+      60px 30px 0 0 #C4272C,
+      -30px 80px 0 0 #C4272C,
+      20px 20px 0 0 #C4272C,
+      30px 78px 0 0 #C4272C,
+      35px -30px 0 0 #C4272C;
+  }
+  .onion{
+    z-index: 10;
+    position: absolute;
+    margin: auto;
+    top: 240px;
+    left: 25px;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 
+      -80px -60px 0 0 palevioletred,
+      -40px -30px 0 0 palevioletred,
+      -80px -60px 0 0 palevioletred,
+      80px -40px 0 0 palevioletred,
+      -60px 40px 0 0 palevioletred,
+      60px 10px 0 0 palevioletred,
+      -20px 80px 0 0 palevioletred,
+      10px 20px 0 0 palevioletred,
+      30px 80px 0 0 palevioletred,
+      35px -20px 0 0 palevioletred;
+  }
+  .tomoto{
+    z-index: 10;
+    position: absolute;
+    margin: auto;
+    top: 230px;
+    left: -40px;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 
+      -80px -60px 0 0 red,
+      -40px -30px 0 0 red,
+      -80px -60px 0 0 red,
+      80px -40px 0 0 red,
+      -60px 40px 0 0 red,
+      60px 10px 0 0 red,
+      -20px 80px 0 0 red,
+      10px 20px 0 0 red,
+      30px 80px 0 0 red,
+      35px -20px 0 0 red;
+  }
+  .mushrooms{
+    z-index: 10;
+    position: absolute;
+    margin: auto;
+    top: 240px;
+    left: 25px;
+    right: 0;
+    height: 15px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: tranparent;
+    box-shadow: 
+      -80px -50px 0 0 #4C5B5C,
+      0 -75px 0 0 #4C5B5C,
+      -40px -30px 0 0 #4C5B5C,
+      -80px -60px 0 0 #4C5B5C,
+      80px -40px 0 0 #4C5B5C,
+      -60px 30px 0 0 #4C5B5C,
+      60px 30px 0 0 #4C5B5C,
+      -30px 80px 0 0 #4C5B5C,
+      20px 20px 0 0 #4C5B5C,
+      30px 78px 0 0 #4C5B5C,
+      35px -30px 0 0 #4C5B5C;
+  }
+  
+  .olive{
+    z-index: 10;
+    position: absolute;
+    margin: auto;
+    top: 220px;
+    left: -50px;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: tranparent;
+    box-shadow: 
+      -80px -60px 0 0 black,
+      0 -75px 0 0 black,
+      -40px -30px 0 0 black,
+      -80px -60px 0 0 black,
+      80px -40px 0 0 black,
+      -60px 30px 0 0 black,
+      60px 30px 0 0 black,
+      -30px 80px 0 0 black,
+      20px 20px 0 0 black,
+      30px 78px 0 0 black,
+      35px -30px 0 0 black;
+  }
+  .jalapeno{
+    z-index: 10;
+    position: absolute;
+    margin: auto;
+    top: 210px;
+    left: 30px;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: tranparent;
+    box-shadow: 
+      -80px -60px 0 0 green,
+      0 -75px 0 0 green,
+      -40px -30px 0 0 green,
+      -80px -60px 0 0 green,
+      80px -40px 0 0 green,
+      -60px 30px 0 0 green,
+      60px 30px 0 0 green,
+      -30px 80px 0 0 green,
+      20px 20px 0 0 green,
+      30px 78px 0 0 green,
+      35px -30px 0 0 green;
+  }
